@@ -1,0 +1,203 @@
+Implementation:
+UI implementation
+
+Welcome screen(welcome nav bar)
+Add text saying “to have order delivered and use checks to pay you much create an account”
+Add pictures(can be stock photos of pizzas with toppings and such)
+Add login button that goes to page
+Login page(welcome screen)
+Add input field for “Enter email”(need to include “@” and “.com” to be valid email)
+
+
+Add input field for “Enter password”(show entries as “*”
+Add button that says “No account? Sign up now” that leads to create account page
+link that leads to create account
+Add create account button that goes to use page
+Add input field for “Email”(need to include “@” and “.com” to be valid email)
+Add input field for “phone#”(only allow for 10 digits)
+Add input field for “First name”
+Add input field for “last name”
+Add input field for “Password”(show entries as “*”
+
+
+Address
+Add input field for “Street”
+Add input field for “Zip”(only allow for 5 digits)
+Add input field for “City”
+Add input field for “State” code(only allow for 2 letters)
+Add input field for “country”(default to US)
+Add input field for “Subdivision name”(optional)
+Add input field for “Closest major intersection”(optional)
+Payment type(either visa or master card)
+Add input field for Name on card
+Add input field for Card number( 19 digits max)
+Add input field for 3 digit code(only 3 digits)
+Add input for expiration date
+2 digits for month before automatically adding a “/”
+4 digits max for year
+Billing address(add option to make same as address)
+Add input field for Street
+Add input field for Zip(only allow for 5 digits)
+Add input field for city 
+Add input field for State code(only allow for 2 letters)
+Add input field for country(default to US)
+Add guest button that takes you to menu(new page)
+
+Menu
+Have link that takes to welcome screen at any time in order process
+Have link that goes to checkout page at anytime in order process
+Add option button for either “Take out” or “delivery”(if the status is guest then delivery is blanked out)
+Add total information at bottom of menu before the confirmation button
+Add create “Create your own” text
+Add multichoice checkboxes with all options for “Size”
+“Small (+ $5)”
+“Medium (+ $7)”
+“Large (+ $9)”
+“Extra large(+ $11)”
+Add multichoice checkboxes with all options for “Crust”
+“Thin”
+“Regular”
+“pan”
+Add multichoice checkboxes for Sauce but have it pre selected
+“Tomato marinara”
+Add multichoice checkboxes with all options for Toppings(1st topping adds nothing to total unless its extra cheese and next topping change based on sm,md,lg,xl pizza)
+“Extra Cheese(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Pepperoni(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Sausage(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Ham(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Green peppers(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Onions(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Tomato(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Mushroom(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+“Pineapple(+ $.70 or + $1.00 or + $1.25 or + $1.50)”
+Add multichoice checkboxes with all options for Sides
+“Bread sticks (+ $4)”
+“Bread sticks bites (+ $2)”
+“Big chocolate chip cookie(+ $4)”
+Add multichoice checkboxes with all options for Drinks
+Pepsi drinks($1.75 each)
+Pepsi
+Diet Pepsi
+Orange
+Diet orange
+Root beer
+Starry
+Lemonad
+Check out screen
+Add order summary that includes
+Itemized list
+Option to change, delete, or add to order
+Add “how would you like to pay” in text and put indented under this
+Add “Credit card” button that displays pop up screen asking for indented
+Add “Enter credit card info” button 
+Add input field for Name on card
+Add input field for Card number( 19 digits max)
+Add input field for 3 digit code(only 3 digits)
+Add input for expiration date
+2 digits for month before automatically adding a “/”
+4 digits max for year
+Add “Pay in store?” button 
+Add “Cash” button 
+Add “check” button(if status is guest then check option is blanked out)
+Add “Address information” button that prefills and displays account address if existing customer and opens to a pop up display if guest to enter address information
+Add “place order” button that goes to the summary page
+Order summary page:
+Add Estimated pickup or delivery time text(20 minutes if pick up 40 if delivery)
+Add Address used text
+Add Credit card used text (last 4 digits and name on card)
+Add Receipt
+Add button the returns to welcome page 
+Admin System:
+Add a ”Add users” button that goes to different registration screen
+Add “Username” input
+Add “Password” input 
+Add “add user” that goes back to main admin page after adding new user to database
+Add “Add employees” button that goes to new page with indented
+Add “First name” input
+Add ”Last name” input
+Add “phone#” input
+Add “Social security” input
+Add “Direct deposit set up” button that is optional in case being paid by check
+Add “Bank name” input
+Add “Routing number” input
+Add “Account number” input
+Add “Voided check” input that takes a image file that is either (jpg, png, or pdf)
+For employee id increment a number by 1 for every employee added
+Add “Get reports” button that goes to page with indented.
+Add “Generate all sales” button that goes to page that has indented
+Add “Adhoc report” button that opens a new page to enter date range that shows all sales between date range
+Add “Fixed report” that chooses between pre written reports for all sales in current fiscal year (daily, monthly, quarterly or annually)
+Add “Generate all revenue” button that goes to page that has indented 
+Add “Adhoc report” button that opens a new page to enter date range that shows all revenue between date range
+Add “Fixed report” that chooses between pre written reports for all revenue in current fiscal year (daily, monthly, quarterly or annually)
+Add “generate inventory purchased” button goes to page that has indented
+Have input “choose inventory item” that connects to buttons below
+Add “Adhoc report” button that opens a new page to enter date range that shows all inventory purchased between date range
+Add “Fixed report” that chooses between pre written reports for all inventory purchased in current fiscal year (daily, monthly, quarterly or annually)
+Add “Generate orders not picked up” button that goes to page that has indented
+Add “Adhoc report” button that opens a new page to enter date range that shows all orders not picked up between date range
+Add “Fixed report” that chooses between pre written reports for all orders not picked up in current fiscal year (daily, monthly, quarterly or annually)
+Add “Generate inventory” button that goes to page with indented
+Add “item” input that connects to “current stock” and “cost” buttons
+Add “Current stock” button that gets the current stock of item entered
+Add “Cost” button that gets the cost of item entered
+Add “deliveries” button that returns the current status of the item ordered but if the item has not been ordered say “no delivery”
+Add “Inventory management” button that goes to new page with indented
+Add “Purchase inventory” button that goes to new page with indented
+Add “item” input that connects to “purchase button”
+Add “purchase” button that places an order for the item chosen
+Kitchen display system:
+Add “Order in progress” under uncompleted orders
+Add “Customer name” with the order information under it
+Add “Order completed” button that changes the status of the order to completed
+Create Database:
+Create “employee” table
+Store “first name”
+Store “last name”
+Store “SSN”
+Store “start date”
+Store “end date”
+Store “Employee ID”(increment a number by 1 for every employee added)
+Create “admin” table(determines who has access to admin system)
+Connects to employee table
+Store “Employee ID”(same as employee table)
+Store “role”(level of access)
+“Level 1”: only read from database
+“Level 2”: write to and read database
+“Level 3”: read, write, delete, and update database
+Create customer table
+Store “Customer ID”(phone#)
+Store “first name”
+Store “last name”
+Store “payment type”
+Store “address”
+Store “city”
+Store “state”
+Store “zip code”
+Create “orders” table
+Connects to customer table
+Store “phone number”(tells who customer is)
+Store everything customer ordered
+Store “Date of order”(dd/mm/yy)
+Store “time stamp”
+Store “Order number”
+Create inventory table
+Store “SKU number”
+Store “Name of item”
+Store “item description”
+Store “cost of item”
+Store “date of purchase”
+Store “shelf number”
+Create “Menu item” table
+Connects to inventory table
+Store “SKU number” (same as inventory table)
+Store “item name”
+Store “item Description”
+Store “image ID”
+Create “pizza” status table
+Connects to orders table
+Store “Order number”(from orders table)
+Store “What was ordered”(from orders table
+Store “Being prepared”
+Store “in oven”
+Store “ready”
